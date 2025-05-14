@@ -1,2 +1,2 @@
 # ArcadeGamesSuperPack
-Super pack containing 5 arcade game clones, coded in C++
+Super pack containing 5 arcade game clones, coded in C++ using Raylib
