@@ -1,0 +1,12 @@
+# Compiled object files
+*.o
+*.obj
+
+# Visual Studio / IDE files
+.vscode/
+*.vcxproj*
+*.sln
+
+# Build directories
+build/
+
