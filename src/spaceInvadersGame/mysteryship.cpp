@@ -1,7 +1,7 @@
 #include "mysteryship.hpp"
 
 MysteryShip::MysteryShip() {
-    image = LoadTexture("src/spaceInvadersGame/Graphics/mystery.png");
+    image = LoadTexture("data/spaceInvaders/Graphics/mystery.png");
     alive = false;
 }
 

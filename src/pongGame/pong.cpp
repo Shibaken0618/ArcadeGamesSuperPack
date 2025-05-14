@@ -93,8 +93,8 @@ bool InitPong() {
     state = PongState::Title;
     // load audio
     InitAudioDevice();
-    hitSound = LoadSound("src/pongGame/SE/tap.mp3");
-    scoreSound = LoadSound("src/pongGame/SE/score.mp3");
+    hitSound = LoadSound("data/pong/SE/tap.mp3");
+    scoreSound = LoadSound("data/pong/SE/score.mp3");
     // init entities
     int w = GetScreenWidth(), h = GetScreenHeight();
     ball.Init(w,h);

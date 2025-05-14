@@ -23,7 +23,7 @@ namespace {
 
 bool InitInvaders() {
     // assume window already initialized by main launcher
-    shipTex = LoadTexture("src/spaceInvadersGame/Graphics/spaceship.png");
+    shipTex = LoadTexture("data/spaceInvaders/Graphics/spaceship.png");
     game = new Game();
     game->InitGame();
     state = IState::Start;

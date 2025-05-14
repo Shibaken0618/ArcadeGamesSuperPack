@@ -59,8 +59,8 @@ static void SaveHighScore() {
 
 bool InitSnake() {
     InitAudioDevice();
-    eatSound = LoadSound("src/snakeGame/SE/eat.mp3");
-    collSound = LoadSound("src/snakeGame/SE/coll.mp3");
+    eatSound = LoadSound("data/snake/SE/eat.mp3");
+    collSound = LoadSound("data/snake/SE/coll.mp3");
     LoadHighScore(); score = 0;
 
     // Initialize snake
@@ -70,7 +70,7 @@ bool InitSnake() {
     lastUpdateTime = GetTime();
 
     // Load food
-    Image img = LoadImage("src/snakeGame/Graphics/food.png");
+    Image img = LoadImage("data/snake/Graphics/food.png");
     ImageResize(&img, CELL_SIZE, CELL_SIZE);
     foodTex = LoadTextureFromImage(img);
     UnloadImage(img);

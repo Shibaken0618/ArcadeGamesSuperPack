@@ -9,16 +9,16 @@ Alien::Alien(int type, Vector2 position) {
     if (alienImages[type - 1].id == 0) {
         switch(type) {
             case 1:
-                alienImages[0] = LoadTexture("src/spaceInvadersGame/Graphics/alien_1.png");
+                alienImages[0] = LoadTexture("data/spaceInvaders/Graphics/alien_1.png");
                 break;
             case 2:
-                alienImages[1] = LoadTexture("src/spaceInvadersGame/Graphics/alien_2.png");
+                alienImages[1] = LoadTexture("data/spaceInvaders/Graphics/alien_2.png");
                 break;
             case 3:
-                alienImages[2] = LoadTexture("src/spaceInvadersGame/Graphics/alien_3.png");
+                alienImages[2] = LoadTexture("data/spaceInvaders/Graphics/alien_3.png");
                 break;
             default:
-                alienImages[0] = LoadTexture("src/spaceInvadersGame/Graphics/alien_1.png");
+                alienImages[0] = LoadTexture("data/spaceInvaders/Graphics/alien_1.png");
                 break;
         }
     }

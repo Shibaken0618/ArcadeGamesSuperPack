@@ -2,7 +2,7 @@
 
 Spaceship::Spaceship()
 {
-    image = LoadTexture("src/spaceInvadersGame/Graphics/spaceship.png");
+    image = LoadTexture("data/spaceInvaders/Graphics/spaceship.png");
     position.x = (GetScreenWidth() - image.width) / 2;
     position.y = GetScreenHeight() - image.height - 100;
     lastFireTime = 0.0;

@@ -210,9 +210,9 @@ static void HandleCollisions() {
 // --- Initialization ---
 bool InitAsteroids() {
     InitAudioDevice();
-    shootSfx    = LoadSound("src/asteroidsGame/SE/shoot.mp3");
-    explodeSfx  = LoadSound("src/asteroidsGame/SE/explode.mp3");
-    gameOverSfx = LoadSound("src/asteroidsGame/SE/gameOver.mp3");
+    shootSfx    = LoadSound("data/asteroids/SE/shoot.mp3");
+    explodeSfx  = LoadSound("data/asteroids/SE/explode.mp3");
+    gameOverSfx = LoadSound("data/asteroids/SE/gameOver.mp3");
     LoadHighScore(); score = 0; gameOverSoundPlayed = false;
     ship.Reset(); bullets.clear(); SpawnAsteroids();
     gameState = GameState::START_SCREEN;
