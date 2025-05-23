@@ -1,5 +1,5 @@
 # ArcadeGamesSuperPack
-Arcade games super pack containing 5 game clones (with my personal interpretation and game settings), coded in C++ using the Raylib library.
+Arcade games super pack containing 5 game clones, coded in C++ using the Raylib library.
 
 ## Title page:
 ![Screenshot from 2025-05-23 02-09-31](https://github.com/user-attachments/assets/c918e44a-ac85-4054-bc34-93c8f90e65b1)
